@@ -2,21 +2,13 @@
     margin: 0;
     padding: 0;
 }
-@font-face {
-    font-family: 'Norse-Bold'; /* Assigning a name to the font */
-    src: url('/home/abdag/projects/fonts/Norse-Bold.otf') format('opentype'); /* Path to the font file */
-    /* You may need to adjust the path accordingly */
-}
 body{
     background-color: rgb(240, 235, 235);
     display: flex;
 }
-
 .odin {
-    font-family: 'Norse-Bold', sans-serif; 
     font-size: 50px;
 }
-
 .side-img {
     position: relative;
     display: inline-block;
@@ -33,20 +25,18 @@ body{
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .logo-div img {
     display: inline-block;
     vertical-align: middle;
 }
-
 .logo-div span {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
 }
-
 form{
-    padding: 30px;
+    margin: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
