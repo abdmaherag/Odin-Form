@@ -13,7 +13,7 @@ body{
     overflow: hidden;
 }
 
-.container{
+.side-container{
     position: relative;
     display: flex;
     justify-content: center;
