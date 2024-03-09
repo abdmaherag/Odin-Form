@@ -52,3 +52,12 @@ section{
     font-weight: 600;
     font-size: 20px;
 }
+form{
+    display: flex;
+    flex-direction: column;
+}
+.inputs-container{
+    margin: 42px;
+    color: #f5f5;
+    background-color: white;
+}
