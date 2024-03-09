@@ -42,3 +42,13 @@ section{
     font-size:80px;
     font-family: sideFont;
 }
+.top-text-container{
+    margin-top: 12%;
+    width: 52%;
+    padding-left: 42px;
+
+}
+.top-text{
+    font-weight: 600;
+    font-size: 20px;
+}
