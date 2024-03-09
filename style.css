@@ -48,7 +48,7 @@ section{
     margin-top: 12%;
     width: 52%;
     padding-left: 42px;
-
+    margin-bottom: 5%;
 }
 .top-text{
     font-weight: 600;
@@ -59,7 +59,7 @@ form{
 }
 .inputs-container{
     padding: 42px;
-    color: #f5f5;
+    color: rgb(0, 0, 0);
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -79,5 +79,25 @@ input{
 }
 .container{
     display: flex;
+    width: 100%;
     flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: rgb(52, 95, 12);
+    font-weight: bold;
+}
+.submit-button-container{
+    padding: 42px;
+}
+.submit-button-container > button{
+    padding: 16px;
+    width: 200px;
+    border: none;
+    background-color: rgb(52, 95, 12);
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 23px;
 }
